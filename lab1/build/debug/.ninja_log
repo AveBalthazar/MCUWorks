@@ -1,6 +1,6 @@
 # ninja log v5
-57	578	7882265488664516	CMakeFiles/lab1.dir/Startup/startup_stm32f446retx.s.obj	4060c6962065ca0a
-51	587	7882265489174563	CMakeFiles/lab1.dir/Src/sysmem.c.obj	76f67199c0878c67
-18	583	7882265489184551	CMakeFiles/lab1.dir/Src/main.c.obj	aa25a592170396fb
-677	969	7882265491955085	lab1.elf	183763a3e9d25dc9
-44	677	7882265490451960	CMakeFiles/lab1.dir/Src/syscall.c.obj	3d4b26142a9c19ff
+25	327	7882229630615669	CMakeFiles/lab1.dir/Startup/startup_stm32f446retx.s.obj	2f6388c78dc5e11b
+15	351	7882229631175825	CMakeFiles/lab1.dir/Src/sysmem.c.obj	9877133fa21d9381
+3	352	7882229630985830	CMakeFiles/lab1.dir/Src/main.c.obj	69d34459a8adb9e3
+425	720	7882229633586235	lab1.elf	c40aad20617dd64
+9	424	7882229632081220	CMakeFiles/lab1.dir/Src/syscall.c.obj	d2fc053f379b60cb

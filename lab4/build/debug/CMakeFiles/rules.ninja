@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\user\MCUWorks\lab4 -BC:\Users\user\MCUWorks\lab4\build\debug
+  command = C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\user\ProgMC\lab4 -BC:\Users\user\ProgMC\lab4\build\debug
   description = Re-running CMake...
   generator = 1
 

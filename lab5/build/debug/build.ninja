@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/user/MCUWorks/lab5/build/debug/
+cmake_ninja_workdir = C$:/Users/user/ProgMC/lab5/build/debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target lab5
 
@@ -49,35 +49,35 @@ cmake_ninja_workdir = C$:/Users/user/MCUWorks/lab5/build/debug/
 
 build cmake_object_order_depends_target_lab5: phony || CMakeFiles/lab5.dir
 
-build CMakeFiles/lab5.dir/Src/main.c.obj: C_COMPILER__lab5_unscanned_Debug C$:/Users/user/MCUWorks/lab5/Src/main.c || cmake_object_order_depends_target_lab5
+build CMakeFiles/lab5.dir/Src/main.c.obj: C_COMPILER__lab5_unscanned_Debug C$:/Users/user/ProgMC/lab5/Src/main.c || cmake_object_order_depends_target_lab5
   DEFINES = -DDEBUG
   DEP_FILE = CMakeFiles\lab5.dir\Src\main.c.obj.d
   FLAGS = -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb
-  INCLUDES = -IC:/Users/user/MCUWorks/lab5/Inc -IC:/Users/user/MCUWorks/lab5/../libs/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/user/MCUWorks/lab5/../libs/CMSIS/Include
+  INCLUDES = -IC:/Users/user/ProgMC/lab5/Inc -IC:/Users/user/ProgMC/lab5/../libs/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/user/ProgMC/lab5/../libs/CMSIS/Include
   OBJECT_DIR = CMakeFiles\lab5.dir
   OBJECT_FILE_DIR = CMakeFiles\lab5.dir\Src
 
-build CMakeFiles/lab5.dir/Src/syscall.c.obj: C_COMPILER__lab5_unscanned_Debug C$:/Users/user/MCUWorks/lab5/Src/syscall.c || cmake_object_order_depends_target_lab5
+build CMakeFiles/lab5.dir/Src/syscall.c.obj: C_COMPILER__lab5_unscanned_Debug C$:/Users/user/ProgMC/lab5/Src/syscall.c || cmake_object_order_depends_target_lab5
   DEFINES = -DDEBUG
   DEP_FILE = CMakeFiles\lab5.dir\Src\syscall.c.obj.d
   FLAGS = -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb
-  INCLUDES = -IC:/Users/user/MCUWorks/lab5/Inc -IC:/Users/user/MCUWorks/lab5/../libs/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/user/MCUWorks/lab5/../libs/CMSIS/Include
+  INCLUDES = -IC:/Users/user/ProgMC/lab5/Inc -IC:/Users/user/ProgMC/lab5/../libs/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/user/ProgMC/lab5/../libs/CMSIS/Include
   OBJECT_DIR = CMakeFiles\lab5.dir
   OBJECT_FILE_DIR = CMakeFiles\lab5.dir\Src
 
-build CMakeFiles/lab5.dir/Src/sysmem.c.obj: C_COMPILER__lab5_unscanned_Debug C$:/Users/user/MCUWorks/lab5/Src/sysmem.c || cmake_object_order_depends_target_lab5
+build CMakeFiles/lab5.dir/Src/sysmem.c.obj: C_COMPILER__lab5_unscanned_Debug C$:/Users/user/ProgMC/lab5/Src/sysmem.c || cmake_object_order_depends_target_lab5
   DEFINES = -DDEBUG
   DEP_FILE = CMakeFiles\lab5.dir\Src\sysmem.c.obj.d
   FLAGS = -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb
-  INCLUDES = -IC:/Users/user/MCUWorks/lab5/Inc -IC:/Users/user/MCUWorks/lab5/../libs/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/user/MCUWorks/lab5/../libs/CMSIS/Include
+  INCLUDES = -IC:/Users/user/ProgMC/lab5/Inc -IC:/Users/user/ProgMC/lab5/../libs/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/user/ProgMC/lab5/../libs/CMSIS/Include
   OBJECT_DIR = CMakeFiles\lab5.dir
   OBJECT_FILE_DIR = CMakeFiles\lab5.dir\Src
 
-build CMakeFiles/lab5.dir/Startup/startup_stm32f446retx.s.obj: ASM_COMPILER__lab5_unscanned_Debug C$:/Users/user/MCUWorks/lab5/Startup/startup_stm32f446retx.s || cmake_object_order_depends_target_lab5
+build CMakeFiles/lab5.dir/Startup/startup_stm32f446retx.s.obj: ASM_COMPILER__lab5_unscanned_Debug C$:/Users/user/ProgMC/lab5/Startup/startup_stm32f446retx.s || cmake_object_order_depends_target_lab5
   DEFINES = -DDEBUG
   DEP_FILE = CMakeFiles\lab5.dir\Startup\startup_stm32f446retx.s.obj.d
   FLAGS = -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -x assembler-with-cpp -MMD -MP -Og -g3 -ggdb
-  INCLUDES = -IC:/Users/user/MCUWorks/lab5 -IC:/Users/user/MCUWorks/lab5/../libs/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/user/MCUWorks/lab5/../libs/CMSIS/Include
+  INCLUDES = -IC:/Users/user/ProgMC/lab5 -IC:/Users/user/ProgMC/lab5/../libs/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/user/ProgMC/lab5/../libs/CMSIS/Include
   OBJECT_DIR = CMakeFiles\lab5.dir
   OBJECT_FILE_DIR = CMakeFiles\lab5.dir\Startup
 
@@ -91,10 +91,10 @@ build CMakeFiles/lab5.dir/Startup/startup_stm32f446retx.s.obj: ASM_COMPILER__lab
 
 build lab5.elf: C_EXECUTABLE_LINKER__lab5_Debug CMakeFiles/lab5.dir/Src/main.c.obj CMakeFiles/lab5.dir/Src/syscall.c.obj CMakeFiles/lab5.dir/Src/sysmem.c.obj CMakeFiles/lab5.dir/Startup/startup_stm32f446retx.s.obj
   FLAGS = -fdata-sections -ffunction-sections -Wl,--gc-sections -g
-  LINK_FLAGS = -TC:/Users/user/MCUWorks/lab5/stm32f446retx_FLASH.ld -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wl,-Map=lab5.map -u _printf_float --specs=nosys.specs -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group -Wl,-z,max-page-size=8 -Wl,--print-memory-usage
-  LINK_PATH = -LC:/Users/user/MCUWorks/lab5/lab5
+  LINK_FLAGS = -TC:/Users/user/ProgMC/lab5/stm32f446retx_FLASH.ld -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wl,-Map=lab5.map -u _printf_float --specs=nosys.specs -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group -Wl,-z,max-page-size=8 -Wl,--print-memory-usage
+  LINK_PATH = -LC:/Users/user/ProgMC/lab5/lab5
   OBJECT_DIR = CMakeFiles\lab5.dir
-  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\MCUWorks\lab5\build\debug && arm-none-eabi-size C:/Users/user/MCUWorks/lab5/build/debug/lab5.elf && arm-none-eabi-objcopy -O ihex C:/Users/user/MCUWorks/lab5/build/debug/lab5.elf lab5.hex && arm-none-eabi-objcopy -O binary C:/Users/user/MCUWorks/lab5/build/debug/lab5.elf lab5.bin"
+  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\ProgMC\lab5\build\debug && arm-none-eabi-size C:/Users/user/ProgMC/lab5/build/debug/lab5.elf && arm-none-eabi-objcopy -O ihex C:/Users/user/ProgMC/lab5/build/debug/lab5.elf lab5.hex && arm-none-eabi-objcopy -O binary C:/Users/user/ProgMC/lab5/build/debug/lab5.elf lab5.bin"
   PRE_LINK = cd .
   TARGET_FILE = lab5.elf
   TARGET_PDB = lab5.elf.dbg
@@ -104,7 +104,7 @@ build lab5.elf: C_EXECUTABLE_LINKER__lab5_Debug CMakeFiles/lab5.dir/Src/main.c.o
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\MCUWorks\lab5\build\debug && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake-gui.exe -SC:\Users\user\MCUWorks\lab5 -BC:\Users\user\MCUWorks\lab5\build\debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\ProgMC\lab5\build\debug && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake-gui.exe -SC:\Users\user\ProgMC\lab5 -BC:\Users\user\ProgMC\lab5\build\debug"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -116,7 +116,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\MCUWorks\lab5\build\debug && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\user\MCUWorks\lab5 -BC:\Users\user\MCUWorks\lab5\build\debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\ProgMC\lab5\build\debug && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\user\ProgMC\lab5 -BC:\Users\user\ProgMC\lab5\build\debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -134,7 +134,7 @@ build lab5: phony lab5.elf
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/user/MCUWorks/lab5/build/debug
+# Folder: C:/Users/user/ProgMC/lab5/build/debug
 
 build all: phony lab5.elf
 
@@ -145,14 +145,14 @@ build all: phony lab5.elf
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake C$:/Users/user/MCUWorks/lab5/CMakeLists.txt C$:/Users/user/MCUWorks/lab5/cmake/gcc-arm-none-eabi.cmake C$:/Users/user/MCUWorks/lab5/cmake/vscode_generated.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake C$:/Users/user/ProgMC/lab5/CMakeLists.txt C$:/Users/user/ProgMC/lab5/cmake/gcc-arm-none-eabi.cmake C$:/Users/user/ProgMC/lab5/cmake/vscode_generated.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake C$:/Users/user/MCUWorks/lab5/CMakeLists.txt C$:/Users/user/MCUWorks/lab5/cmake/gcc-arm-none-eabi.cmake C$:/Users/user/MCUWorks/lab5/cmake/vscode_generated.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/ST/STM32CubeCLT_1.17.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake C$:/Users/user/ProgMC/lab5/CMakeLists.txt C$:/Users/user/ProgMC/lab5/cmake/gcc-arm-none-eabi.cmake C$:/Users/user/ProgMC/lab5/cmake/vscode_generated.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################

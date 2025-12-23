@@ -458,8 +458,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x18a CMakeFiles/lab7.dir/Src/syscall.c.obj
  .debug_macro   0x00000000       0x16 CMakeFiles/lab7.dir/Src/syscall.c.obj
  .debug_macro   0x00000000       0xce CMakeFiles/lab7.dir/Src/syscall.c.obj
- .debug_line    0x00000000      0x6e2 CMakeFiles/lab7.dir/Src/syscall.c.obj
- .debug_str     0x00000000     0x932a CMakeFiles/lab7.dir/Src/syscall.c.obj
+ .debug_line    0x00000000      0x6e0 CMakeFiles/lab7.dir/Src/syscall.c.obj
+ .debug_str     0x00000000     0x9326 CMakeFiles/lab7.dir/Src/syscall.c.obj
  .comment       0x00000000       0x44 CMakeFiles/lab7.dir/Src/syscall.c.obj
  .debug_frame   0x00000000      0x190 CMakeFiles/lab7.dir/Src/syscall.c.obj
  .ARM.attributes
@@ -519,8 +519,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x103 CMakeFiles/lab7.dir/Src/sysmem.c.obj
  .debug_macro   0x00000000       0x6a CMakeFiles/lab7.dir/Src/sysmem.c.obj
  .debug_macro   0x00000000      0x1df CMakeFiles/lab7.dir/Src/sysmem.c.obj
- .debug_line    0x00000000      0x354 CMakeFiles/lab7.dir/Src/sysmem.c.obj
- .debug_str     0x00000000     0x5a9e CMakeFiles/lab7.dir/Src/sysmem.c.obj
+ .debug_line    0x00000000      0x352 CMakeFiles/lab7.dir/Src/sysmem.c.obj
+ .debug_str     0x00000000     0x5a9a CMakeFiles/lab7.dir/Src/sysmem.c.obj
  .comment       0x00000000       0x44 CMakeFiles/lab7.dir/Src/sysmem.c.obj
  .debug_frame   0x00000000       0x28 CMakeFiles/lab7.dir/Src/sysmem.c.obj
  .ARM.attributes
@@ -970,21 +970,21 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_macro   0x000022fc    0x1672d CMakeFiles/lab7.dir/Src/main.c.obj
  .debug_macro   0x00018a29       0x22 CMakeFiles/lab7.dir/Src/main.c.obj
 
-.debug_line     0x00000000      0x9fa
- .debug_line    0x00000000      0x97f CMakeFiles/lab7.dir/Src/main.c.obj
- .debug_line    0x0000097f       0x7b CMakeFiles/lab7.dir/Startup/startup_stm32f446retx.s.obj
+.debug_line     0x00000000      0x9f4
+ .debug_line    0x00000000      0x979 CMakeFiles/lab7.dir/Src/main.c.obj
+ .debug_line    0x00000979       0x7b CMakeFiles/lab7.dir/Startup/startup_stm32f446retx.s.obj
 
-.debug_str      0x00000000    0x8b139
- .debug_str     0x00000000    0x8b0e1 CMakeFiles/lab7.dir/Src/main.c.obj
-                              0x8b2d4 (size before relaxing)
- .debug_str     0x0008b0e1       0x58 CMakeFiles/lab7.dir/Startup/startup_stm32f446retx.s.obj
-                                 0x80 (size before relaxing)
+.debug_str      0x00000000    0x8b133
+ .debug_str     0x00000000    0x8b0dd CMakeFiles/lab7.dir/Src/main.c.obj
+                              0x8b2d0 (size before relaxing)
+ .debug_str     0x0008b0dd       0x56 CMakeFiles/lab7.dir/Startup/startup_stm32f446retx.s.obj
+                                 0x7c (size before relaxing)
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 CMakeFiles/lab7.dir/Src/main.c.obj
                                  0x44 (size before relaxing)
 
 .debug_line_str
-                0x00000000       0x64
+                0x00000000       0x60
  .debug_line_str
-                0x00000000       0x64 CMakeFiles/lab7.dir/Startup/startup_stm32f446retx.s.obj
+                0x00000000       0x60 CMakeFiles/lab7.dir/Startup/startup_stm32f446retx.s.obj
