@@ -1,0 +1,3 @@
+C:/Users/user/MCUWorks/lab3/build/debug/CMakeFiles/lab3.dir
+C:/Users/user/MCUWorks/lab3/build/debug/CMakeFiles/edit_cache.dir
+C:/Users/user/MCUWorks/lab3/build/debug/CMakeFiles/rebuild_cache.dir
