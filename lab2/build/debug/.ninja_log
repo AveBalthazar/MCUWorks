@@ -1,0 +1,7 @@
+# ninja log v5
+48	529	7882264073215125	CMakeFiles/lab2.dir/Src/sysmem.c.obj	78a6bcba8d69bc7
+54	454	7882264072485009	CMakeFiles/lab2.dir/Startup/startup_stm32f446retx.s.obj	68c94e2b24459e0f
+32	836	7882264076854153	CMakeFiles/lab2.dir/Src/main.c.obj	d9e5a35a75d36390
+41	599	7882264074385029	CMakeFiles/lab2.dir/Src/syscall.c.obj	5b9930f7f2d71909
+836	1202	7882264079049667	lab2.elf	4cbf4a1953560d91
+40	67	0	clean	5c1d2a0083349566

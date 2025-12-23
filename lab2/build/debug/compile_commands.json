@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/user/MCUWorks/lab2/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/user/MCUWorks/lab2/Inc -IC:/Users/user/MCUWorks/lab2/../libs/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/user/MCUWorks/lab2/../libs/CMSIS/Include -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\lab2.dir\\Src\\main.c.obj -c C:\\Users\\user\\MCUWorks\\lab2\\Src\\main.c",
+  "file": "C:\\Users\\user\\MCUWorks\\lab2\\Src\\main.c",
+  "output": "CMakeFiles\\lab2.dir\\Src\\main.c.obj"
+},
+{
+  "directory": "C:/Users/user/MCUWorks/lab2/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/user/MCUWorks/lab2/Inc -IC:/Users/user/MCUWorks/lab2/../libs/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/user/MCUWorks/lab2/../libs/CMSIS/Include -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\lab2.dir\\Src\\syscall.c.obj -c C:\\Users\\user\\MCUWorks\\lab2\\Src\\syscall.c",
+  "file": "C:\\Users\\user\\MCUWorks\\lab2\\Src\\syscall.c",
+  "output": "CMakeFiles\\lab2.dir\\Src\\syscall.c.obj"
+},
+{
+  "directory": "C:/Users/user/MCUWorks/lab2/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/user/MCUWorks/lab2/Inc -IC:/Users/user/MCUWorks/lab2/../libs/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/user/MCUWorks/lab2/../libs/CMSIS/Include -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\lab2.dir\\Src\\sysmem.c.obj -c C:\\Users\\user\\MCUWorks\\lab2\\Src\\sysmem.c",
+  "file": "C:\\Users\\user\\MCUWorks\\lab2\\Src\\sysmem.c",
+  "output": "CMakeFiles\\lab2.dir\\Src\\sysmem.c.obj"
+},
+{
+  "directory": "C:/Users/user/MCUWorks/lab2/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/user/MCUWorks/lab2 -IC:/Users/user/MCUWorks/lab2/../libs/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/user/MCUWorks/lab2/../libs/CMSIS/Include -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -x assembler-with-cpp -MMD -MP -Og -g3 -ggdb -o CMakeFiles\\lab2.dir\\Startup\\startup_stm32f446retx.s.obj -c C:\\Users\\user\\MCUWorks\\lab2\\Startup\\startup_stm32f446retx.s",
+  "file": "C:\\Users\\user\\MCUWorks\\lab2\\Startup\\startup_stm32f446retx.s",
+  "output": "CMakeFiles\\lab2.dir\\Startup\\startup_stm32f446retx.s.obj"
+}
+]

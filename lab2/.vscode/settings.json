@@ -1,0 +1,20 @@
+{
+    "VsCodeTaskButtons.tasks": [
+        {
+            "label": "$(run) Run",
+            "task": "CubeProg: Flash project (SWD)",
+            "tooltip": "Build and run"
+        },
+    ],
+    "python-envs.pythonProjects": [
+        {
+            "path": "sample.py",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ], 
+    "C_Cpp.intelliSenseEngine": "default",
+    "files.associations": {
+        "stdbool.h": "c"
+    }
+}

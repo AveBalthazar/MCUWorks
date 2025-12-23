@@ -1,0 +1,20 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "STM32",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "intelliSenseMode": "${default}",
+            "defines": [
+                "STM32F446xx"
+            ],
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/libs/CMSIS/Device/ST/STM32F4xx/Include",
+                "${workspaceFolder}/libs/CMSIS/Include",
+                "C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/arm-none-eabi/include",
+                "C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/lib/gcc/arm-none-eabi/12.3.1/include"
+            ]
+        }
+    ]
+}
