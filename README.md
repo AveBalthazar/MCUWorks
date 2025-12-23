@@ -1,1 +1,2 @@
 # MCUWorks
+Repository contains multiple firmware projects for STM32F446. Used peripheral devices, controllers and interfaces are the following: GPIO, USART, TIM (as general counter, in encoder and PWM mode), NVIC and EXTI, DMA, DAC, ADC, SPI, shift registers, motors with encoders and potentiometers.
